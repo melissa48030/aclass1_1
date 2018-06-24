@@ -2,8 +2,8 @@
 {
     using System;
     class Program
-
-   static void Main(string[] args)
+    {
+        static void Main(string[] args)
         {
             /*
             A status report is needed of all government employees.  Statuses are:
@@ -46,6 +46,7 @@
                 case 4:
                     Console.WriteLine("Status: Unknown");
                     break;
-            } 
+            }
         }
     }
+}
